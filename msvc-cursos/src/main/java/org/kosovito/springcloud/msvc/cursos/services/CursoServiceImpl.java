@@ -1,6 +1,6 @@
 package org.kosovito.springcloud.msvc.cursos.services;
 
-import org.kosovito.springcloud.msvc.cursos.entity.Curso;
+import org.kosovito.springcloud.msvc.cursos.models.entity.Curso;
 import org.kosovito.springcloud.msvc.cursos.repositories.CursoRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

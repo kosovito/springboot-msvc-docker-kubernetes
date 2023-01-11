@@ -35,14 +35,15 @@ public class UsuarioController {
     //@ResponseStatus(HttpStatus.CREATED) manejamos directamente devolviendo un responseEntity
     public ResponseEntity<?> crear(@Valid @RequestBody Usuario usuario, BindingResult result){
 
-        if(service.porEmail(usuario.getEmail()).isPresent()){
+        if(result.hasErrors()){
+            return validar(result);
+        }
+
+        if(!usuario.getEmail().isEmpty() && service.existePorEmail(usuario.getEmail())){
             return ResponseEntity.badRequest()
                     .body(Collections.singletonMap("mensaje","Ya existe un usuario con ese email!"));
         }
 
-        if(result.hasErrors()){
-            return validar(result);
-        }
         return ResponseEntity.status(HttpStatus.CREATED).body(service.guardar(usuario));
     }
 
@@ -56,7 +57,7 @@ public class UsuarioController {
         Optional<Usuario> o = service.porId(id);
         if(o.isPresent()){
             Usuario usuarioDb = o.get();
-            if(!usuario.getEmail().equalsIgnoreCase(usuarioDb.getEmail())
+            if(!usuario.getEmail().isEmpty() && !usuario.getEmail().equalsIgnoreCase(usuarioDb.getEmail())
                     && service.porEmail(usuario.getEmail()).isPresent()){
                 return ResponseEntity.badRequest()
                         .body(Collections.singletonMap("mensaje","Ya existe un usuario con ese email!"));

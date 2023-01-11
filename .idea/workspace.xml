@@ -4,13 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a9a1d83e-08d6-4b6b-84ae-a17ce3c2302b" name="Changes" comment="initial commit">
+    <list default="true" id="a9a1d83e-08d6-4b6b-84ae-a17ce3c2302b" name="Changes" comment="100123">
+      <change afterPath="$PROJECT_DIR$/msvc-cursos/src/main/java/org/kosovito/springcloud/msvc/cursos/models/Usuario.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/msvc-cursos/src/main/java/org/kosovito/springcloud/msvc/cursos/models/entity/Curso.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/msvc-cursos/src/main/java/org/kosovito/springcloud/msvc/cursos/models/entity/CursoUsuario.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/msvc-cursos/src/main/java/org/kosovito/springcloud/msvc/cursos/controllers/CursoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/msvc-cursos/src/main/java/org/kosovito/springcloud/msvc/cursos/controllers/CursoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/msvc-cursos/src/main/java/org/kosovito/springcloud/msvc/cursos/entity/Curso.java" beforeDir="false" afterPath="$PROJECT_DIR$/msvc-cursos/src/main/java/org/kosovito/springcloud/msvc/cursos/entity/Curso.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/msvc-usuarios/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/msvc-usuarios/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/msvc-cursos/src/main/java/org/kosovito/springcloud/msvc/cursos/entity/Curso.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/msvc-cursos/src/main/java/org/kosovito/springcloud/msvc/cursos/repositories/CursoRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/msvc-cursos/src/main/java/org/kosovito/springcloud/msvc/cursos/repositories/CursoRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/msvc-cursos/src/main/java/org/kosovito/springcloud/msvc/cursos/services/CursoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/msvc-cursos/src/main/java/org/kosovito/springcloud/msvc/cursos/services/CursoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/msvc-cursos/src/main/java/org/kosovito/springcloud/msvc/cursos/services/CursoServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/msvc-cursos/src/main/java/org/kosovito/springcloud/msvc/cursos/services/CursoServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/msvc-usuarios/src/main/java/org/kosovito/springcloud/msvc/usuarios/controllers/UsuarioController.java" beforeDir="false" afterPath="$PROJECT_DIR$/msvc-usuarios/src/main/java/org/kosovito/springcloud/msvc/usuarios/controllers/UsuarioController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/msvc-usuarios/src/main/java/org/kosovito/springcloud/msvc/usuarios/models/entity/Usuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/msvc-usuarios/src/main/java/org/kosovito/springcloud/msvc/usuarios/models/entity/Usuario.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/msvc-usuarios/src/main/java/org/kosovito/springcloud/msvc/usuarios/repositories/UsuarioRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/msvc-usuarios/src/main/java/org/kosovito/springcloud/msvc/usuarios/repositories/UsuarioRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/msvc-usuarios/src/main/java/org/kosovito/springcloud/msvc/usuarios/services/UsuarioService.java" beforeDir="false" afterPath="$PROJECT_DIR$/msvc-usuarios/src/main/java/org/kosovito/springcloud/msvc/usuarios/services/UsuarioService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/msvc-usuarios/src/main/java/org/kosovito/springcloud/msvc/usuarios/services/UsuarioServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/msvc-usuarios/src/main/java/org/kosovito/springcloud/msvc/usuarios/services/UsuarioServiceImpl.java" afterDir="false" />
@@ -111,12 +115,20 @@
       <option name="project" value="LOCAL" />
       <updated>1673094962862</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="100123">
+      <created>1673385403557</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1673385403557</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
+    <MESSAGE value="100123" />
+    <option name="LAST_COMMIT_MESSAGE" value="100123" />
   </component>
 </project>
