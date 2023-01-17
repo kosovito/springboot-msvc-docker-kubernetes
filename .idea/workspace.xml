@@ -4,18 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a9a1d83e-08d6-4b6b-84ae-a17ce3c2302b" name="Changes" comment="120123">
-      <change afterPath="$PROJECT_DIR$/msvc-usuarios/src/main/java/org/kosovito/springcloud/msvc/usuarios/client/CursoClienteRest.java" afterDir="false" />
+    <list default="true" id="a9a1d83e-08d6-4b6b-84ae-a17ce3c2302b" name="Changes" comment="140123">
+      <change afterPath="$PROJECT_DIR$/msvc-usuarios/Dockerfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/msvc-cursos/src/main/java/org/kosovito/springcloud/msvc/cursos/clients/UsuarioClientRest.java" beforeDir="false" afterPath="$PROJECT_DIR$/msvc-cursos/src/main/java/org/kosovito/springcloud/msvc/cursos/clients/UsuarioClientRest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/msvc-cursos/src/main/java/org/kosovito/springcloud/msvc/cursos/controllers/CursoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/msvc-cursos/src/main/java/org/kosovito/springcloud/msvc/cursos/controllers/CursoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/msvc-cursos/src/main/java/org/kosovito/springcloud/msvc/cursos/repositories/CursoRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/msvc-cursos/src/main/java/org/kosovito/springcloud/msvc/cursos/repositories/CursoRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/msvc-cursos/src/main/java/org/kosovito/springcloud/msvc/cursos/services/CursoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/msvc-cursos/src/main/java/org/kosovito/springcloud/msvc/cursos/services/CursoService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/msvc-cursos/src/main/java/org/kosovito/springcloud/msvc/cursos/services/CursoServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/msvc-cursos/src/main/java/org/kosovito/springcloud/msvc/cursos/services/CursoServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/msvc-usuarios/src/main/java/org/kosovito/springcloud/msvc/usuarios/MsvcUsuariosApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/msvc-usuarios/src/main/java/org/kosovito/springcloud/msvc/usuarios/MsvcUsuariosApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/msvc-usuarios/src/main/java/org/kosovito/springcloud/msvc/usuarios/controllers/UsuarioController.java" beforeDir="false" afterPath="$PROJECT_DIR$/msvc-usuarios/src/main/java/org/kosovito/springcloud/msvc/usuarios/controllers/UsuarioController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/msvc-usuarios/src/main/java/org/kosovito/springcloud/msvc/usuarios/services/UsuarioService.java" beforeDir="false" afterPath="$PROJECT_DIR$/msvc-usuarios/src/main/java/org/kosovito/springcloud/msvc/usuarios/services/UsuarioService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/msvc-usuarios/src/main/java/org/kosovito/springcloud/msvc/usuarios/services/UsuarioServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/msvc-usuarios/src/main/java/org/kosovito/springcloud/msvc/usuarios/services/UsuarioServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,15 +48,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="Application.MsvcUsuariosApplication">
     <configuration name="MsvcCursosApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.kosovito.springcloud.msvc.cursos.MsvcCursosApplication" />
@@ -137,7 +131,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673559239492</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="140123">
+      <created>1673701508927</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1673701508927</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -146,6 +147,7 @@
     <MESSAGE value="100123" />
     <MESSAGE value="110123" />
     <MESSAGE value="120123" />
-    <option name="LAST_COMMIT_MESSAGE" value="120123" />
+    <MESSAGE value="140123" />
+    <option name="LAST_COMMIT_MESSAGE" value="140123" />
   </component>
 </project>
