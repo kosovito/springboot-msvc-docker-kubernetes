@@ -4,13 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a9a1d83e-08d6-4b6b-84ae-a17ce3c2302b" name="Changes" comment="170123 creamos Dockerfile">
-      <change afterPath="$PROJECT_DIR$/msvc-cursos/hs_err_pid6688.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/msvc-cursos/hs_err_pid9780.log" afterDir="false" />
+    <list default="true" id="a9a1d83e-08d6-4b6b-84ae-a17ce3c2302b" name="Changes" comment="180123">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/msvc-cursos/hs_err_pid6688.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/msvc-cursos/hs_err_pid9780.log" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/msvc-usuarios/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/msvc-usuarios/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/msvc-usuarios/src/main/java/org/kosovito/springcloud/msvc/usuarios/client/CursoClienteRest.java" beforeDir="false" afterPath="$PROJECT_DIR$/msvc-usuarios/src/main/java/org/kosovito/springcloud/msvc/usuarios/client/CursoClienteRest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/msvc-usuarios/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/msvc-usuarios/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/msvc-usuarios/src/main/java/org/kosovito/springcloud/msvc/usuarios/controllers/UsuarioController.java" beforeDir="false" afterPath="$PROJECT_DIR$/msvc-usuarios/src/main/java/org/kosovito/springcloud/msvc/usuarios/controllers/UsuarioController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +63,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.MsvcCursosApplication">
+  <component name="RunManager" selected="Docker.msvc-usuarios/Dockerfile builder">
     <configuration name="MsvcCursosApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.kosovito.springcloud.msvc.cursos.MsvcCursosApplication" />
       <module name="msvc-cursos" />
@@ -91,8 +90,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="docker-deploy" factoryName="dockerfile" temporary="true">
+      <deployment type="dockerfile" />
+      <method v="2" />
+    </configuration>
+    <configuration name="msvc-usuarios/Dockerfile builder" type="docker-deploy" factoryName="dockerfile" temporary="true" server-name="Docker">
+      <deployment type="dockerfile">
+        <settings>
+          <option name="imageTag" value="openjdk17-jdk-alpine_builder" />
+          <option name="buildCliOptions" value="--target builder" />
+          <option name="buildKitEnabled" value="true" />
+          <option name="buildOnly" value="true" />
+          <option name="sourceFilePath" value="msvc-usuarios/Dockerfile" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Docker.msvc-usuarios/Dockerfile builder" />
         <item itemvalue="Application.MsvcUsuariosApplication" />
         <item itemvalue="Application.MsvcCursosApplication" />
       </list>
@@ -149,7 +165,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673991203559</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="180123">
+      <created>1674076429627</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1674076429627</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -160,6 +183,7 @@
     <MESSAGE value="120123" />
     <MESSAGE value="140123" />
     <MESSAGE value="170123 creamos Dockerfile" />
-    <option name="LAST_COMMIT_MESSAGE" value="170123 creamos Dockerfile" />
+    <MESSAGE value="180123" />
+    <option name="LAST_COMMIT_MESSAGE" value="180123" />
   </component>
 </project>
