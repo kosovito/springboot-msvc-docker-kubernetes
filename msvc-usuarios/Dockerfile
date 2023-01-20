@@ -27,4 +27,6 @@ COPY --from=builder /app/msvc-usuarios/target/msvc-usuarios-0.0.1-SNAPSHOT.jar .
 
 EXPOSE 8001
 
-ENTRYPOINT ["java", "-jar", "msvc-usuarios-0.0.1-SNAPSHOT.jar"]
+#No permite ingresar un comando de inicio, como la ejecución de una consola, cmd si lo permite
+#ENTRYPOINT ["java", "-jar", "msvc-usuarios-0.0.1-SNAPSHOT.jar"]
+CMD ["java", "-jar", "msvc-usuarios-0.0.1-SNAPSHOT.jar"]
