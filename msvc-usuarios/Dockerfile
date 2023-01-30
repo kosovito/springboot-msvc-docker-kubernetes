@@ -38,11 +38,11 @@ EXPOSE $PORT
 CMD ["java", "-jar", "msvc-usuarios-0.0.1-SNAPSHOT.jar"]
 
 ##docker network create spring
-##docker build -t usuarios -f .\msvc-usuarios\Dockerfile --build-arg PORT_APP=8001
+##docker build -t usuarios . -f .\msvc-usuarios\Dockerfile --build-arg PORT_APP=8001
 ##docker build -t cursos . -f .\msvc-cursos\Dockerfile
 ##docker pull mysql:8
 ##docker run -d -p 3307:3306 --name mysql8 --network spring -e MYSQL_ROOT_PASSWORD=sasa -e MYSQL_DATABASE=msvc_usuarios -v data-mysql:/var/lib/mysql --restart=always mysql:8
 ##docker run -p 5532:5432 --name postgres14 --network spring -e POSTGRES_PASSWORD=sasa -e POSTGRES_DB=msvc_cursos -d -v data-postgres:/var/lib/postgresql/data --restart=always postgres:14-alpine
-##docker run -d -p 8002:8002 --name msvc-cursos --rm --network spring cursos
+##docker run -d -p 8002:8002 --env-file .\msvc-cursos\.env --name msvc-cursos --rm --network spring cursos
 ##docker run -d -p 8001:8001 --env PORT=8001 --name msvc-usuarios --rm --network spring usuarios
 ##docker run -d -p 8001:8001 --env-file .\msvc-usuarios\.env --rm --name msvc-usuarios --network spring usuarios
