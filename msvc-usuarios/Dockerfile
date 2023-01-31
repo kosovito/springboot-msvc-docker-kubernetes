@@ -46,3 +46,5 @@ CMD ["java", "-jar", "msvc-usuarios-0.0.1-SNAPSHOT.jar"]
 ##docker run -d -p 8002:8002 --env-file .\msvc-cursos\.env --name msvc-cursos --rm --network spring cursos
 ##docker run -d -p 8001:8001 --env PORT=8001 --name msvc-usuarios --rm --network spring usuarios
 ##docker run -d -p 8001:8001 --env-file .\msvc-usuarios\.env --rm --name msvc-usuarios --network spring usuarios
+##docker-compose up --build -d
+##docker-compose down
