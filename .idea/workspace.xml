@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a9a1d83e-08d6-4b6b-84ae-a17ce3c2302b" name="Changes" comment="300123 docker compose">
+    <list default="true" id="a9a1d83e-08d6-4b6b-84ae-a17ce3c2302b" name="Changes" comment="310123 docker compose build">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docker-compose.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/msvc-usuarios/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/msvc-usuarios/Dockerfile" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +67,7 @@
       <recent name="C:\Users\kosovito\IdeaProjects\springboot-msvc-docker-kubernetes\msvc-cursos" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MsvcCursosApplication">
+  <component name="RunManager" selected="Docker.msvc-usuarios/Dockerfile builder">
     <configuration name="MsvcCursosApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.kosovito.springcloud.msvc.cursos.MsvcCursosApplication" />
       <module name="msvc-cursos" />
@@ -115,6 +114,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Docker.msvc-usuarios/Dockerfile builder" />
         <item itemvalue="Application.MsvcUsuariosApplication" />
         <item itemvalue="Application.MsvcCursosApplication" />
       </list>
@@ -220,7 +220,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675114223474</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="310123 docker compose build">
+      <created>1675200222118</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1675200222118</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -241,7 +248,8 @@
     <MESSAGE value="240123" />
     <MESSAGE value="260123" />
     <MESSAGE value="300123 docker compose" />
-    <option name="LAST_COMMIT_MESSAGE" value="300123 docker compose" />
+    <MESSAGE value="310123 docker compose build" />
+    <option name="LAST_COMMIT_MESSAGE" value="310123 docker compose build" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

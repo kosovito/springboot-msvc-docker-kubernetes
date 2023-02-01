@@ -32,10 +32,11 @@ services:
 
   msvc-usuarios:
     container_name: msvc-usuarios
-    image: usuarios:latest
-    build:
-      context: ./
-      dockerfile: ./msvc-usuarios/Dockerfile
+#    image: usuarios:latest
+#    build:
+#      context: ./
+#      dockerfile: ./msvc-usuarios/Dockerfile
+    image: kosovito/usuarios:latest
     ports:
       - "8001:8001"
     env_file: ./msvc-usuarios/.env
@@ -48,10 +49,11 @@ services:
 
   msvc-cursos:
     container_name: msvc-cursos
-    image: cursos:latest
-    build:
-      context: ./
-      dockerfile: ./msvc-cursos/Dockerfile
+#    image: cursos:latest
+#    build:
+#      context: ./
+#      dockerfile: ./msvc-cursos/Dockerfile
+    image: kosovito/cursos:latest
     ports:
       - "8002:8002"
     env_file:
