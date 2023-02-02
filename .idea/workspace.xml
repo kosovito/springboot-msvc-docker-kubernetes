@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a9a1d83e-08d6-4b6b-84ae-a17ce3c2302b" name="Changes" comment="310123 docker compose build">
+    <list default="true" id="a9a1d83e-08d6-4b6b-84ae-a17ce3c2302b" name="Changes" comment="010223 docker hub and compose on hub">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docker-compose.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yaml" afterDir="false" />
     </list>
@@ -227,7 +227,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675200222118</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="010223 docker hub and compose on hub">
+      <created>1675285587649</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1675285587649</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -249,7 +256,8 @@
     <MESSAGE value="260123" />
     <MESSAGE value="300123 docker compose" />
     <MESSAGE value="310123 docker compose build" />
-    <option name="LAST_COMMIT_MESSAGE" value="310123 docker compose build" />
+    <MESSAGE value="010223 docker hub and compose on hub" />
+    <option name="LAST_COMMIT_MESSAGE" value="010223 docker hub and compose on hub" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
