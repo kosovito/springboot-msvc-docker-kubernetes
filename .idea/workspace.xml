@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a9a1d83e-08d6-4b6b-84ae-a17ce3c2302b" name="Changes" comment="010223 docker hub and compose on hub">
+    <list default="true" id="a9a1d83e-08d6-4b6b-84ae-a17ce3c2302b" name="Changes" comment="020223 docker compose sin dependencias .env">
+      <change afterPath="$PROJECT_DIR$/docker-compose-cursos.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker-compose-usuarios.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,21 +49,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/kosovito/Documents/Curso Microservicios/SpringProjects/curso-kubernetes/msvc-cursos&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Users/kosovito/IdeaProjects/springboot-msvc-docker-kubernetes",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\kosovito\IdeaProjects\springboot-msvc-docker-kubernetes" />
       <recent name="C:\Users\kosovito\Documents\Curso Microservicios\SpringProjects\curso-kubernetes\msvc-cursos" />
       <recent name="C:\Users\kosovito\IdeaProjects\springboot-msvc-docker-kubernetes\msvc-cursos" />
     </key>
@@ -234,7 +236,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675285587649</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="020223 docker compose sin dependencias .env">
+      <created>1675373347124</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1675373347124</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -257,7 +266,8 @@
     <MESSAGE value="300123 docker compose" />
     <MESSAGE value="310123 docker compose build" />
     <MESSAGE value="010223 docker hub and compose on hub" />
-    <option name="LAST_COMMIT_MESSAGE" value="010223 docker hub and compose on hub" />
+    <MESSAGE value="020223 docker compose sin dependencias .env" />
+    <option name="LAST_COMMIT_MESSAGE" value="020223 docker compose sin dependencias .env" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
