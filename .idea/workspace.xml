@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a9a1d83e-08d6-4b6b-84ae-a17ce3c2302b" name="Changes" comment="020223 docker compose sin dependencias .env">
+    <list default="true" id="a9a1d83e-08d6-4b6b-84ae-a17ce3c2302b" name="Changes" comment="040123 añadimos delay a la inicializacion del servicio usuarios para que mysql pueda arrancar antes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/msvc-usuarios/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/msvc-usuarios/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/msvc-cursos/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/msvc-cursos/Dockerfile" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -242,7 +242,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675373347124</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="040123 añadimos delay a la inicializacion del servicio usuarios para que mysql pueda arrancar antes">
+      <created>1675544508300</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1675544508300</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -266,7 +273,8 @@
     <MESSAGE value="310123 docker compose build" />
     <MESSAGE value="010223 docker hub and compose on hub" />
     <MESSAGE value="020223 docker compose sin dependencias .env" />
-    <option name="LAST_COMMIT_MESSAGE" value="020223 docker compose sin dependencias .env" />
+    <MESSAGE value="040123 añadimos delay a la inicializacion del servicio usuarios para que mysql pueda arrancar antes" />
+    <option name="LAST_COMMIT_MESSAGE" value="040123 añadimos delay a la inicializacion del servicio usuarios para que mysql pueda arrancar antes" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
