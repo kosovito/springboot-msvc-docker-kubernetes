@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a9a1d83e-08d6-4b6b-84ae-a17ce3c2302b" name="Changes" comment="040123 añadimos delay a la inicializacion del servicio usuarios para que mysql pueda arrancar antes">
+    <list default="true" id="a9a1d83e-08d6-4b6b-84ae-a17ce3c2302b" name="Changes" comment="040223 docker compose dividido en 2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/msvc-cursos/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/msvc-cursos/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/msvc-usuarios/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/msvc-usuarios/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/msvc-usuarios/src/main/java/org/kosovito/springcloud/msvc/usuarios/controllers/UsuarioController.java" beforeDir="false" afterPath="$PROJECT_DIR$/msvc-usuarios/src/main/java/org/kosovito/springcloud/msvc/usuarios/controllers/UsuarioController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

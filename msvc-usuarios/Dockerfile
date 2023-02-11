@@ -35,9 +35,9 @@ EXPOSE $PORT
 
 #No permite ingresar un comando de inicio, como la ejecución de una consola, cmd si lo permite
 #ENTRYPOINT ["java", "-jar", "msvc-usuarios-0.0.1-SNAPSHOT.jar"]
-#CMD ["java", "-jar", "msvc-usuarios-0.0.1-SNAPSHOT.jar"]
+CMD ["java", "-jar", "msvc-usuarios-0.0.1-SNAPSHOT.jar"]
 #damos un delay para dar tiempo a que se levante mysql
-CMD sleep 20 && java -jar msvc-usuarios-0.0.1-SNAPSHOT.jar
+#CMD sleep 20 && java -jar msvc-usuarios-0.0.1-SNAPSHOT.jar
 
 ##docker network create spring
 ##docker build -t usuarios . -f .\msvc-usuarios\Dockerfile --build-arg PORT_APP=8001

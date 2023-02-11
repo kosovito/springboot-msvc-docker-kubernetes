@@ -30,5 +30,5 @@ EXPOSE 8002
 
 #No permite ingresar un comando de inicio, como la ejecución de una consola, cmd si lo permite
 #ENTRYPOINT ["java", "-jar", "msvc-usuarios-0.0.1-SNAPSHOT.jar"]
-#CMD ["java", "-jar", "msvc-cursos-0.0.1-SNAPSHOT.jar"]
-CMD sleep 10 && java -jar msvc-cursos-0.0.1-SNAPSHOT.jar
+CMD ["java", "-jar", "msvc-cursos-0.0.1-SNAPSHOT.jar"]
+#CMD sleep 10 && java -jar msvc-cursos-0.0.1-SNAPSHOT.jar
