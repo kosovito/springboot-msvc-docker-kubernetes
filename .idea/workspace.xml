@@ -4,20 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a9a1d83e-08d6-4b6b-84ae-a17ce3c2302b" name="Changes" comment="110223 Kubernet. Creación de deployments y añadido GetMapping(&quot;/crash&quot;) al servicio usuarios, para simular una caída y ver funcionamiento de multipods">
-      <change afterPath="$PROJECT_DIR$/deployment-cursos.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/deployment-postgres.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/deployment-usuarios.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pv-mysql.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pv-postgres.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pvc-mysql.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pvc-postgres.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/svc-cursos.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/svc-mysql.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/svc-postgres.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/svc-usuarios.yaml" afterDir="false" />
+    <list default="true" id="a9a1d83e-08d6-4b6b-84ae-a17ce3c2302b" name="Changes" comment="110223 Kubernet. Creación de deployments de cursos, mysql, postgres y servicios, persistent volumes y persisten claims de los servicios de mysql y postgres">
+      <change afterPath="$PROJECT_DIR$/configmap.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/secret.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/deployment-mysql.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/deployment-mysql.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deployment-postgres.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/deployment-postgres.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -274,7 +266,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676121910754</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="110223 Kubernet. Creación de deployments de cursos, mysql, postgres y servicios, persistent volumes y persisten claims de los servicios de mysql y postgres">
+      <created>1676139262755</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1676139262756</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -300,7 +299,8 @@
     <MESSAGE value="020223 docker compose sin dependencias .env" />
     <MESSAGE value="040123 añadimos delay a la inicializacion del servicio usuarios para que mysql pueda arrancar antes" />
     <MESSAGE value="110223 Kubernet. Creación de deployments y añadido GetMapping(&quot;/crash&quot;) al servicio usuarios, para simular una caída y ver funcionamiento de multipods" />
-    <option name="LAST_COMMIT_MESSAGE" value="110223 Kubernet. Creación de deployments y añadido GetMapping(&quot;/crash&quot;) al servicio usuarios, para simular una caída y ver funcionamiento de multipods" />
+    <MESSAGE value="110223 Kubernet. Creación de deployments de cursos, mysql, postgres y servicios, persistent volumes y persisten claims de los servicios de mysql y postgres" />
+    <option name="LAST_COMMIT_MESSAGE" value="110223 Kubernet. Creación de deployments de cursos, mysql, postgres y servicios, persistent volumes y persisten claims de los servicios de mysql y postgres" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
