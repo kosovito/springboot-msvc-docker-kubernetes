@@ -4,11 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a9a1d83e-08d6-4b6b-84ae-a17ce3c2302b" name="Changes" comment="040223 docker compose dividido en 2">
+    <list default="true" id="a9a1d83e-08d6-4b6b-84ae-a17ce3c2302b" name="Changes" comment="110223 Kubernet. Creación de deployments y añadido GetMapping(&quot;/crash&quot;) al servicio usuarios, para simular una caída y ver funcionamiento de multipods">
+      <change afterPath="$PROJECT_DIR$/deployment-cursos.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/deployment-postgres.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/deployment-usuarios.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pv-mysql.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pv-postgres.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pvc-mysql.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pvc-postgres.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/svc-cursos.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/svc-mysql.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/svc-postgres.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/svc-usuarios.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/msvc-cursos/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/msvc-cursos/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/msvc-usuarios/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/msvc-usuarios/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/msvc-usuarios/src/main/java/org/kosovito/springcloud/msvc/usuarios/controllers/UsuarioController.java" beforeDir="false" afterPath="$PROJECT_DIR$/msvc-usuarios/src/main/java/org/kosovito/springcloud/msvc/usuarios/controllers/UsuarioController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deployment-mysql.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/deployment-mysql.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -251,7 +260,21 @@
       <option name="project" value="LOCAL" />
       <updated>1675544508300</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="110223 Kubernet. Creación de deployments y añadido GetMapping(&quot;/crash&quot;) al servicio usuarios, para simular una caída y ver funcionamiento de multipods">
+      <created>1676121703403</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1676121703403</updated>
+    </task>
+    <task id="LOCAL-00019" summary="110223 Kubernet. Creación de deployments y añadido GetMapping(&quot;/crash&quot;) al servicio usuarios, para simular una caída y ver funcionamiento de multipods">
+      <created>1676121910754</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1676121910754</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -276,7 +299,8 @@
     <MESSAGE value="010223 docker hub and compose on hub" />
     <MESSAGE value="020223 docker compose sin dependencias .env" />
     <MESSAGE value="040123 añadimos delay a la inicializacion del servicio usuarios para que mysql pueda arrancar antes" />
-    <option name="LAST_COMMIT_MESSAGE" value="040123 añadimos delay a la inicializacion del servicio usuarios para que mysql pueda arrancar antes" />
+    <MESSAGE value="110223 Kubernet. Creación de deployments y añadido GetMapping(&quot;/crash&quot;) al servicio usuarios, para simular una caída y ver funcionamiento de multipods" />
+    <option name="LAST_COMMIT_MESSAGE" value="110223 Kubernet. Creación de deployments y añadido GetMapping(&quot;/crash&quot;) al servicio usuarios, para simular una caída y ver funcionamiento de multipods" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
