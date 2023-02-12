@@ -4,12 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a9a1d83e-08d6-4b6b-84ae-a17ce3c2302b" name="Changes" comment="110223 Kubernet. Creación de deployments de cursos, mysql, postgres y servicios, persistent volumes y persisten claims de los servicios de mysql y postgres">
-      <change afterPath="$PROJECT_DIR$/configmap.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/secret.yaml" afterDir="false" />
+    <list default="true" id="a9a1d83e-08d6-4b6b-84ae-a17ce3c2302b" name="Changes" comment="110223 Kubernet. Creando Configmap y Secret">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configmap.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/configmap.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deployment-cursos.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/deployment-cursos.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/deployment-mysql.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/deployment-mysql.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deployment-postgres.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/deployment-postgres.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deployment-usuarios.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/deployment-usuarios.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/msvc-cursos/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/msvc-cursos/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/msvc-cursos/src/main/java/org/kosovito/springcloud/msvc/cursos/MsvcCursosApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/msvc-cursos/src/main/java/org/kosovito/springcloud/msvc/cursos/MsvcCursosApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/msvc-cursos/src/main/java/org/kosovito/springcloud/msvc/cursos/clients/UsuarioClientRest.java" beforeDir="false" afterPath="$PROJECT_DIR$/msvc-cursos/src/main/java/org/kosovito/springcloud/msvc/cursos/clients/UsuarioClientRest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/msvc-cursos/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/msvc-cursos/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/msvc-usuarios/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/msvc-usuarios/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/msvc-usuarios/src/main/java/org/kosovito/springcloud/msvc/usuarios/MsvcUsuariosApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/msvc-usuarios/src/main/java/org/kosovito/springcloud/msvc/usuarios/MsvcUsuariosApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/msvc-usuarios/src/main/java/org/kosovito/springcloud/msvc/usuarios/client/CursoClienteRest.java" beforeDir="false" afterPath="$PROJECT_DIR$/msvc-usuarios/src/main/java/org/kosovito/springcloud/msvc/usuarios/client/CursoClienteRest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/msvc-usuarios/src/main/java/org/kosovito/springcloud/msvc/usuarios/controllers/UsuarioController.java" beforeDir="false" afterPath="$PROJECT_DIR$/msvc-usuarios/src/main/java/org/kosovito/springcloud/msvc/usuarios/controllers/UsuarioController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/msvc-usuarios/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/msvc-usuarios/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -273,7 +282,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676139262756</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="110223 Kubernet. Creando Configmap y Secret">
+      <created>1676141711118</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1676141711118</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -300,7 +316,8 @@
     <MESSAGE value="040123 añadimos delay a la inicializacion del servicio usuarios para que mysql pueda arrancar antes" />
     <MESSAGE value="110223 Kubernet. Creación de deployments y añadido GetMapping(&quot;/crash&quot;) al servicio usuarios, para simular una caída y ver funcionamiento de multipods" />
     <MESSAGE value="110223 Kubernet. Creación de deployments de cursos, mysql, postgres y servicios, persistent volumes y persisten claims de los servicios de mysql y postgres" />
-    <option name="LAST_COMMIT_MESSAGE" value="110223 Kubernet. Creación de deployments de cursos, mysql, postgres y servicios, persistent volumes y persisten claims de los servicios de mysql y postgres" />
+    <MESSAGE value="110223 Kubernet. Creando Configmap y Secret" />
+    <option name="LAST_COMMIT_MESSAGE" value="110223 Kubernet. Creando Configmap y Secret" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
