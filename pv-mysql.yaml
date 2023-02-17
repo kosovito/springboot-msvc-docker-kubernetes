@@ -7,9 +7,18 @@ spec:
     storage: 2G
   volumeMode: Filesystem
   #usar el nombre resultante del comando kubectl get sc
+  #para modo local standard el vacío para multinodo, amazon eks
   storageClassName: standard
+#  storageClassName: ""
   accessModes:
     - ReadWriteOnce
+  #para multinodo, amazon eks
+#    - ReadWritMany
+#  csi:
+#    driver: efs.csi.aws.com
+        #id del efs de amazon eks
+#     volumeHandle: fs-05s51215sf5s5
+  #hostpath no necesario en multinodo amazon eks
   hostPath:
     path: /var/lib/mysql
     type: DirectoryOrCreate
