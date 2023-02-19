@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a9a1d83e-08d6-4b6b-84ae-a17ce3c2302b" name="Changes" comment="150223 Añadimos microservicios gateway de spring cloud, para hacer balanceo de carga de nuestros microservicios con una sola url, y no delegar a kubernetes">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deployment-mysql.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/deployment-mysql.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pv-mysql.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pv-mysql.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pvc-mysql.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pvc-mysql.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/deployment-svc-gateway.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kubernetes-despliegue-instrucciones.md" beforeDir="false" afterPath="$PROJECT_DIR$/kubernetes-despliegue-instrucciones.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -306,6 +304,17 @@
   </component>
   <component name="UnknownFeatures">
     <option featureType="com.intellij.fileTypeFactory" implementationName=".env" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
