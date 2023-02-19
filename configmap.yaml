@@ -3,12 +3,6 @@ kind: ConfigMap
 metadata:
   name: msvc-usuarios
 data:
-  #lb_auth_issuer_uri: http://host.docker.internal:9000
-  #lb_usuarios_uri: http://host.docker.internal:8001
-  #lb_auth_issuer_uri: http://msvc-auth:9000
-  #lb_usuarios_uri: http://msvc-usuarios:8001
-  lb_auth_issuer_uri: http://172.29.154.84:31096
-  lb_usuarios_uri: http://172.29.154.84:30239
   port: "8001"
   db_host: "mysql8:3306"
   database: msvc_usuarios
