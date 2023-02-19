@@ -29,4 +29,4 @@
 ##minikube dashboard
 ##creamos permiso para acceder a spring cloud kubernetes a la api de kubernetes
 ##kubectl create clusterrolebinding admin --clusterrole=cluster-admin --serviceaccount=default:default
-##kubectl apply -f .\gateway.yaml
+##kubectl apply -f .\deployment-svc-gateway.yaml

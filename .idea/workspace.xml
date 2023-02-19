@@ -4,9 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a9a1d83e-08d6-4b6b-84ae-a17ce3c2302b" name="Changes" comment="050123 añadimos delay a la inicializacion del servicio cursos para que postgres pueda arrancar antes">
+    <list default="true" id="a9a1d83e-08d6-4b6b-84ae-a17ce3c2302b" name="Changes" comment="180123">
+      <change afterPath="$PROJECT_DIR$/deployment-svc-auth.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/msvc-auth/Dockerfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/svc-usuarios.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/svc-usuarios.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configmap.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/configmap.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deployment-usuarios.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/deployment-usuarios.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/deployment-svc-gateway.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kubernetes-despliegue-instrucciones.md" beforeDir="false" afterPath="$PROJECT_DIR$/kubernetes-despliegue-instrucciones.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/msvc-auth/src/main/java/org/kosovito/springcloud/msvc/auth/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/msvc-auth/src/main/java/org/kosovito/springcloud/msvc/auth/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/msvc-gateway/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/msvc-gateway/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/msvc-usuarios/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/msvc-usuarios/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/msvc-usuarios/src/main/java/org/kosovito/springcloud/msvc/usuarios/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/msvc-usuarios/src/main/java/org/kosovito/springcloud/msvc/usuarios/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/msvc-usuarios/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/msvc-usuarios/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +64,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/kosovito/IdeaProjects/springboot-msvc-docker-kubernetes/msvc-gateway&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/kosovito/Documents/Curso Microservicios/SpringProjects/curso-kubernetes&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
@@ -63,11 +73,18 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\kosovito\Documents\Curso Microservicios\SpringProjects\curso-kubernetes" />
+      <recent name="C:\Users\kosovito\Documents\Curso Microservicios\SpringProjects\curso-kubernetes\msvc-auth" />
       <recent name="C:\Users\kosovito\IdeaProjects\springboot-msvc-docker-kubernetes\msvc-gateway" />
       <recent name="C:\Users\kosovito\IdeaProjects\springboot-msvc-docker-kubernetes" />
       <recent name="C:\Users\kosovito\Documents\Curso Microservicios\SpringProjects\curso-kubernetes\msvc-cursos" />
-      <recent name="C:\Users\kosovito\IdeaProjects\springboot-msvc-docker-kubernetes\msvc-cursos" />
     </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="oauth" />
+      <command value="mvn -e" />
+    </option>
   </component>
   <component name="RunManager" selected="Docker.msvc-usuarios/Dockerfile builder">
     <configuration name="MsvcCursosApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -306,11 +323,29 @@
       <option name="project" value="LOCAL" />
       <updated>1676659824715</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="180123 Corrección en los yml de los services">
+      <created>1676727320955</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1676727320955</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="UnknownFeatures">
     <option featureType="com.intellij.fileTypeFactory" implementationName=".env" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
@@ -320,7 +355,6 @@
     <MESSAGE value="120123" />
     <MESSAGE value="140123" />
     <MESSAGE value="170123 creamos Dockerfile" />
-    <MESSAGE value="180123" />
     <MESSAGE value="190123" />
     <MESSAGE value="200123" />
     <MESSAGE value="230123" />
@@ -338,7 +372,9 @@
     <MESSAGE value="130223 Profiles, Actuator y Resources" />
     <MESSAGE value="150223 Añadimos microservicios gateway de spring cloud, para hacer balanceo de carga de nuestros microservicios con una sola url, y no delegar a kubernetes" />
     <MESSAGE value="170223 Añadimos configuraciones en los yml de los volúmenes de mysql para despliegue en amazon eks" />
-    <option name="LAST_COMMIT_MESSAGE" value="170223 Añadimos configuraciones en los yml de los volúmenes de mysql para despliegue en amazon eks" />
+    <MESSAGE value="180123 Corrección en los yml de los services" />
+    <MESSAGE value="180123" />
+    <option name="LAST_COMMIT_MESSAGE" value="180123" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
