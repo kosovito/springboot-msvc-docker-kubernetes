@@ -4,25 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a9a1d83e-08d6-4b6b-84ae-a17ce3c2302b" name="Changes" comment="170223 Añadimos configuraciones en los yml de los volúmenes de mysql para despliegue en amazon eks">
-      <change afterPath="$PROJECT_DIR$/msvc-auth/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/msvc-auth/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/msvc-auth/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/msvc-auth/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/msvc-auth/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/msvc-auth/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/msvc-auth/src/main/java/org/kosovito/springcloud/msvc/auth/MsvcAuthApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/msvc-auth/src/main/java/org/kosovito/springcloud/msvc/auth/SecurityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/msvc-auth/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/msvc-auth/src/test/java/org/kosovito/springcloud/msvc/auth/MsvcAuthApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/msvc-usuarios/src/main/java/org/kosovito/springcloud/msvc/usuarios/SecurityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/msvc-usuarios/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+    <list default="true" id="a9a1d83e-08d6-4b6b-84ae-a17ce3c2302b" name="Changes" comment="150223 Añadimos microservicios gateway de spring cloud, para hacer balanceo de carga de nuestros microservicios con una sola url, y no delegar a kubernetes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deployment-usuarios.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/deployment-usuarios.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/msvc-usuarios/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/msvc-usuarios/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/msvc-usuarios/src/main/java/org/kosovito/springcloud/msvc/usuarios/controllers/UsuarioController.java" beforeDir="false" afterPath="$PROJECT_DIR$/msvc-usuarios/src/main/java/org/kosovito/springcloud/msvc/usuarios/controllers/UsuarioController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deployment-mysql.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/deployment-mysql.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pv-mysql.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pv-mysql.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pvc-mysql.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pvc-mysql.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,8 +18,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -315,14 +301,7 @@
       <option name="project" value="LOCAL" />
       <updated>1676496024711</updated>
     </task>
-    <task id="LOCAL-00025" summary="170223 Añadimos configuraciones en los yml de los volúmenes de mysql para despliegue en amazon eks">
-      <created>1676659824715</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1676659824715</updated>
-    </task>
-    <option name="localTasksCounter" value="26" />
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -353,8 +332,7 @@
     <MESSAGE value="120223 Configmaps y Secrets desde spring cloud" />
     <MESSAGE value="130223 Profiles, Actuator y Resources" />
     <MESSAGE value="150223 Añadimos microservicios gateway de spring cloud, para hacer balanceo de carga de nuestros microservicios con una sola url, y no delegar a kubernetes" />
-    <MESSAGE value="170223 Añadimos configuraciones en los yml de los volúmenes de mysql para despliegue en amazon eks" />
-    <option name="LAST_COMMIT_MESSAGE" value="170223 Añadimos configuraciones en los yml de los volúmenes de mysql para despliegue en amazon eks" />
+    <option name="LAST_COMMIT_MESSAGE" value="150223 Añadimos microservicios gateway de spring cloud, para hacer balanceo de carga de nuestros microservicios con una sola url, y no delegar a kubernetes" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
